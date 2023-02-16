@@ -18,7 +18,7 @@ public class Clientes {
 
 	//mal, no hace lo que deberia
 	public List<Cliente> get() {
-		return coleccionClientes;
+		return new ArrayList<>(coleccionClientes);
 	}
 	
 	public int getCantidad() {

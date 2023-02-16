@@ -16,7 +16,7 @@ private List<Turismo> coleccionTurismos;
 
 	//mal, no hace lo que deberia
 	public List<Turismo> get() {
-		return coleccionTurismos;
+		return new ArrayList<>(coleccionTurismos);
 	}
 	
 	public int getCantidad() {
