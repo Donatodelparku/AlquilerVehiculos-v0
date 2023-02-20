@@ -16,7 +16,6 @@ public class Clientes {
 		coleccionClientes = new ArrayList<>();
 	}
 
-	//mal, no hace lo que deberia
 	public List<Cliente> get() {
 		return new ArrayList<>(coleccionClientes);
 	}
